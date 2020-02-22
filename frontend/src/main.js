@@ -20,6 +20,7 @@ const i18n = new VueI18n({
 });
 
 Vue.use(plugin);
+// Vue.use(cache, {http: Vue.http, appkey: 'appCache'});
 new Vue({
   router,
   store,
